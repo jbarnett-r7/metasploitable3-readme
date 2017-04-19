@@ -1,0 +1,19 @@
+
+	<center>
+	<h1>Welcome to Metasploitable3</h1>
+	<table cellpadding="20">
+		<Tr>
+			<Td colspan="2">
+				<center>To learn more about each version, please click one of the images below</center>
+			</td>
+		</tr>
+		<tr>
+			<td valign="top">
+				<%= link_to image_tag("windows.png", alt: "Windows"), controller: "readme", os: "windows"%>
+			</td>
+			<td valign="top">
+				<%= link_to image_tag("linux.png", alt: "Linux"), controller: "readme", os: "linux"%>
+			</td>
+		</tr>
+	</table>
+	</center>
